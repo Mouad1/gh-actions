@@ -6,9 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
-    branches: [ "feat1_create_first_workflow" ]
+    branches: [ "main,feat1_create_first_workflow" ]
   pull_request:
-    branches: [ "feat1_create_first_workflow" ]
+    branches: [ "main,feat1_create_first_workflow" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
